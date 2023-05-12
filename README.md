@@ -1,7 +1,7 @@
 # registration-login
  Registration and login system (Spring Boot + Thymeleaf)
  
- - Spring MVC and Spring Securty
+ 	- Spring MVC and Spring Securty
 	- Maven
 	- MySQL
 	- Thymeleaf
