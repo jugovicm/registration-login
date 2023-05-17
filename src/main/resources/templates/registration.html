@@ -20,12 +20,12 @@
             </ul>
         </div>
     </nav>
+<br>
+<br>
 <!-- create HTML form (header)-->
     <div class = "container">
         <div class = "row">
             <div class = "col-md-6 col-md-offset-3">
-                <h1> User Login Page </h1>
-                <form th:action="@{/login}" method ="post";>
                     <!-- success message -->
                     <div th:if="${param.success}">
                         <div class="alert alert-info">You've successfully registered
@@ -65,7 +65,7 @@
                         <div class = "form-group">
                             <button type="submit" class="btn btn-success"> Register </button>
                             <span> Already registered?
-                                <a href="/" th:href="@{login}"> Login here. </a>
+                                <a href="/" th:href="@{/login}"> Login here. </a>
                             </span>
                         </div>
                     </form>
